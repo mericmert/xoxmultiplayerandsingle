@@ -4,6 +4,7 @@ MY FIRST XOX GAME
 """
 xkazanma = 0
 ykazanma = 0
+oyuntipi = input("Tek/Cift kişilik:")
 while True:
     try:
         kactur = int(input("Kaç Olan kazansın? :"))
@@ -161,7 +162,7 @@ while True:
 
 
     oyunTahtası(gameboard)
-    oyuntipi = input("Tek/Cift kişilik:")
+
     while (oyunBittimi(gameboard) == False):
 
         if oyuntipi == "Cift":
